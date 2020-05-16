@@ -1,5 +1,18 @@
 <resources>
-    <string name="app_name">AboutMe</string>
+    <string name="app_name">About Me</string>
     <string name="name">Taren</string>
     <string name="yellow_star">Yellow_Star</string>
+    <string name="bio_text">
+        Hi, my name is Taren Lewis.
+        \n\nI am interested in Android App development, stock market analysis, and 8-bit style RPG video games and graphics.
+        \n\nMy previous semester at Penn State I was the Student team leader for a 5 person group project consisting of a NASDAQ and NYSE Sector and Industry analysis tool.
+        \n\nIt had a C++ backend, JS frontend, and was planned to be hosted on an Ubuntu 18.04 Virtual Machine through a droplet on Digital Ocean.
+        \n\n\nIn my free time, I like to learn about code, lay around in my hammock, go for bike rides, explore the woods behind my house, or play video games with my friends.
+        \n\n\nI have experience with the following technologies:
+        \n\n-C++
+        \n\n-Java
+        \n\n-JS
+        \n\n-VHDL
+        \n\n
+    </string>
 </resources>

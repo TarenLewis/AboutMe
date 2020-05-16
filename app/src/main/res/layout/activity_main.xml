@@ -5,15 +5,17 @@
     android:layout_height="match_parent"
     android:layout_marginTop="@dimen/layout_margin"
     android:orientation="vertical"
-    android:paddingTop="@dimen/small_padding">
+    android:paddingStart="@dimen/padding"
+    android:paddingTop="@dimen/small_padding"
+    android:paddingEnd="@dimen/padding">
 
     <TextView
         android:id="@+id/name_text"
+        style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/name"
-        android:textAlignment="center"
-        style="@style/NameStyle" />
+        android:textAlignment="center" />
 
     <ImageView
         android:id="@+id/star_image"
@@ -22,4 +24,27 @@
         android:layout_margin="@dimen/layout_margin"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:id="@+id/bio_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bio_text"
+                style="@style/NameStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/bio_text" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
+
+
+    <!-- See C:\...\Documents\Android\Resources\Learning\Images\scrollview for a reference of how this
+    linear layout can be used within a scrollview to contain other views -->
