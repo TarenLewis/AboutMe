@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="name">Taren</string>
+    <string name="done">Done</string>
     <string name="yellow_star">Yellow_Star</string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
     <string name="bio_text">
         Hi, my name is Taren Lewis.
         \n\nI am interested in Android App development, stock market analysis, and 8-bit style RPG video games and graphics.
@@ -15,4 +17,5 @@
         \n\n-VHDL
         \n\n
     </string>
+
 </resources>
